@@ -7,6 +7,9 @@
     box-sizing: border-box;
    
 }
+.intro{
+    text-align: left;
+}
 NAV{
     display: flex;
     justify-content: space-around;
@@ -125,33 +128,35 @@ text-decoration: none;
     margin-bottom: 20px;
 
 }
-   .give{
+
+.give{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 80px 50px;
     max-width: 100%;
-   }
-   .give .content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1000px;
-   }
-.VIC{
+    justify-content: center;
+    text-align: center;
+}
+.give .content{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+max-width: 1000px;
+}
+.vic{
     font-size: 20px;
     line-height: 1.6;
-    width: 130%;
-    padding-right: 20px;
-   }
+    width: 30%;
+    padding-right: 5px;
+    text-align: justify;
+}
 .you{
-    max-width: 50%;
-    height: auto;
-    border-radius: 8px;
-    align-items: center;
-
+    max-width: 500px;
+    height: 350px;
+    padding-left: 30px;
 }
 
 .HUD{
@@ -377,6 +382,11 @@ html, body{
         display: block;}
     #check:checked ~ .food{right: 0;}
 
+    .open{
+        right: 80px;
+    }
+
+
     nav button{
         display: none;
     }
@@ -390,7 +400,66 @@ html, body{
         grid-template-columns: repeat(2,1fr);
     }
     
-    
+
+    /* hero section */
+.hero .header{
+    margin-top: 230px;
+    margin-left: 10px;
+    font-size: 50px;
+
+}
+.sub-header{
+    margin-left: 15%;
+    margin-top: 350px;
+    font-size: 25px;
+}
+.hero{
+    width: 100vw;
+    height: 350px;
+    overflow: hidden;
+}
+/* video section */
+   .VIDEOS-CONTANINER{
+    grid-template-columns: 1fr;
+    padding-right: 5px;
+   }
+   /* give section */
+.give.content{
+    flex-direction: column;
+    text-align: center;
+}   
+.vic{
+    width: 100%;
+    padding: 0px;
+    text-align: justify;
 }
 
-/* hero section*/
+.you{
+    width: 100%;
+    margin-top: 20px;
+}
+.seed{
+    grid-template-columns: 1fr;
+}
+/* contact from */
+form{
+    width: 90%;
+    padding: 30px;
+    align-items: center;
+}
+.form label {
+    font-size:  16px ;
+
+}
+button .btn-send{ 
+    width: 50%;
+}
+/* footer */
+footer p{
+    font-size: 14px;
+}
+#footer{
+    width: 100vw;
+}
+}
+/*tablet view - screens between 768px and 1024px*\
