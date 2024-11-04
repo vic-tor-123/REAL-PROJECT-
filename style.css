@@ -349,6 +349,13 @@ html, body{
     overflow-x: hidden;
 }
 
+.LAP{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
     .food{
         flex-direction: column;
         align-items: center;
