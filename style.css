@@ -111,6 +111,16 @@ text-decoration: none;
     color: red;
 
 }
+
+.VIDEOS-CONTANINER{
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
+    align-items: center;
+    padding-top: 20px;
+    grid-template-columns: repeat(auto-fit, mima( 360px 1fr));
+}
+
 .gf span{
     color: blueviolet;
     text-shadow: 10px 10px 5px rgb(133, 54, 206);
@@ -180,8 +190,11 @@ font-size: xx-large;
     font-family: 'Times New Roman';
     color: red;
 }
+.id{
+    align-items: center;
+}
 .image{
-     align-items: center;
+    align-items: center;
     padding-top: 40px ;
     border-radius: 10px;
 }
@@ -267,8 +280,19 @@ a{
     flex-direction: column;
     margin: 20px;
 }
+.FORM-GROUP {
+    padding: 2px 2px;
+    border: none;
+    color: white;
+    margin: 0 70px;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    contain: content;
 
-.FORM-GROUP label {
+}
+
+
+.FORM-GROUP label { 
 font-size: 25px;
 color: rgb(119, 50, 65);
 margin-bottom: 5px;
@@ -301,7 +325,11 @@ height: 150px;
     border-radius: 2%;
 
     }
-   
+
+    
+    .BUT{
+        margin-top: 25px;
+    }
 
 p{
     margin: 10px;
@@ -417,6 +445,7 @@ html, body{
     width: 100vw;
     height: 350px;
     overflow: hidden;
+
 }
 /* video section */
    .VIDEOS-CONTANINER{
@@ -451,10 +480,20 @@ form{
     font-size:  16px ;
 
 }
-button .btn-send{ 
-    width: 50%;
-}
-/* footer */
+
+.BUT{ 
+   
+    font-size: 20px;
+
+    }
+
+    .form{
+        width: 80%;
+    }
+
+
+
+footer
 footer p{
     font-size: 14px;
 }
