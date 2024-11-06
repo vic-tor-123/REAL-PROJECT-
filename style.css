@@ -100,6 +100,7 @@ text-decoration: none;
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: xx-large;
+    align-items: center;
 }
 .FI{
     font-weight: bold;
@@ -108,17 +109,19 @@ text-decoration: none;
     font-weight: bolder;
     font-style: normal;
     text-align: center;
+    align-items: center;
     color: red;
 
 }
 
-.VIDEOS-CONTANINER{
-    align-items: center;
-    justify-items: center;
-    grid-gap: 10px;
-    align-items: center;
-    padding-top: 20px;
-    grid-template-columns: repeat(auto-fit, mima( 360px 2fr));
+.video{
+  display: grid;
+  justify-content: center; 
+  align-content: center;    
+  padding-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    
+    
 }
 
 .gf span{
@@ -499,6 +502,13 @@ footer p{
 }
 #footer{
     width: 100vw;
+}
+
+.video{
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+
 }
 }
 /*tablet view - screens between 768px and 1024px*\
