@@ -165,10 +165,11 @@ max-width: 1000px;
     width: 30%;
     padding-right: 5px;
     text-align: justify;
+    text-align: center;
 }
 .you{
     max-width: 500px;
-    height: 350px;
+ text-align: end;
     padding-left: 30px;
 }
 
@@ -477,14 +478,22 @@ html, body{
     width: 100%;
     margin-top: 20px;
 }
-.seed{
+/* .seed{
     display: grid;
     justify-content: center; 
     margin: 10px;
     align-content: center;    
     padding-top: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
       
+} */
+.image{
+    display: grid;
+    justify-content: center; 
+    margin: 10px;
+    align-content: center;    
+    padding-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 /* contact from */
 form{
@@ -531,6 +540,7 @@ footer p{
     align-items: center;
     justify-items: center;
     align-items: center;
+    margin: 10px;
 
 }
 }
