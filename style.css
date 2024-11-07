@@ -199,8 +199,9 @@ font-size: xx-large;
 }
 .image{
     align-items: center;
-    padding-top: 40px ;
+    padding-top: 5px ;
     border-radius: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 .give:hover img{
 transition: transform 1s ease-in-out;
@@ -512,7 +513,7 @@ form{
     margin: 10px;
   justify-content: center; 
   align-content: center;    
-  padding-top: 20px;
+  padding-top: 10px;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     
 }
