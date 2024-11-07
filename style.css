@@ -427,10 +427,6 @@ html, body{
      height: auto;
     }
 
-    .allimage{
-        grid-template-columns: repeat(2,1fr);
-    }
-    
 
     /* hero section */
 .hero .header{
@@ -454,16 +450,27 @@ html, body{
    .VIDEOS-CONTANINER{
     grid-template-columns: 1fr;
     padding-right: 5px;
+    margin: 10px;
    }
    /* give section */
 .give.content{
-    flex-direction: column;
-    text-align: center;
+    
+  display: grid;
+  margin: 10px;
+  justify-content: center; 
+  align-content: center;    
+  padding-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    
 }   
 .vic{
-    width: 100%;
-    padding: 0px;
-    text-align: justify;
+    display: grid;
+    margin: 10px;
+    justify-content: center; 
+    align-content: center;    
+    padding-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      
 }
 
 .you{
@@ -471,7 +478,13 @@ html, body{
     margin-top: 20px;
 }
 .seed{
-    grid-template-columns: 1fr;
+    display: grid;
+    justify-content: center; 
+    margin: 10px;
+    align-content: center;    
+    padding-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      
 }
 /* contact from */
 form{
@@ -482,6 +495,16 @@ form{
 .form label {
     font-size:  16px ;
 
+}
+
+.allimage{
+    display: grid;
+    margin: 10px;
+  justify-content: center; 
+  align-content: center;    
+  padding-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    
 }
 
 .BUT{ 
