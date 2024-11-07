@@ -198,9 +198,12 @@ font-size: xx-large;
     align-items: center;
 }
 .image{
-    align-items: center;
-    padding-top: 5px ;
-    border-radius: 10px;
+    display: grid;
+    justify-content: center; 
+    margin: 10px;
+    text-align: center;
+    align-content: center;    
+    padding-top: 20px;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 .give:hover img{
