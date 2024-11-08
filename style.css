@@ -191,22 +191,34 @@ font-size: large;
     font-size: large;
 }
 
+.id{
+    align-items: center;
+}
+
 .has{
     text-align: center;
     font-family: 'Times New Roman';
     color: red;
+    
+    justify-content: center;
 }
-.id{
-    align-items: center;
+
+.seed{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  
 }
 .image{
     display: grid;
     justify-content: center; 
     margin: 10px;
-    text-align: center;
-    align-content: center;    
+    gap: 5px;
+    max-width: 1300px;
+    align-items: center;    
     padding-top: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
 }
 .give:hover img{
 transition: transform 1s ease-in-out;
@@ -335,7 +347,7 @@ height: 150px;
     border-radius: 2%;
 
     }
-
+/* 
     
     .BUT{
         
@@ -352,7 +364,7 @@ height: 150px;
         color: white;
         background-color: rgb(53, 50, 57);
         }
-    
+     */
 
 p{
     margin: 10px;
@@ -405,8 +417,11 @@ html, body{
     overflow-x: hidden;
 }
 
-.intro{
+Header h1{
     text-align: left;
+    padding: 0px;
+    margin-left: 0px;
+    align-items:left ;
 }
 
 .LAP{
@@ -490,13 +505,13 @@ html, body{
 }   
 .vic{
     display: grid;
-    margin: 20px;
+    margin: 10px;
     font-size: large;
     font-weight: bold;
     font-family: 'Times New Roman';
     justify-content: center; 
     align-content: center;    
-    padding-top: 40px;
+    padding-top: 20px;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
       
 }
@@ -510,8 +525,7 @@ html, body{
     display: grid;
     gap: 10px;
     grid-gap: 16px;
-    height: 300px;
-    width: 300px;
+   
     justify-content: center; 
     margin: 10px;
     align-content: center;    
@@ -540,7 +554,7 @@ form{
     
 }
 
-.BUT{ 
+/* .BUT{ 
    
     padding: 10px 20px;
     border: none;
@@ -551,7 +565,7 @@ form{
     text-decoration: none;
     font-family: 'Lucida Sans';
     }
-   
+    */
     .form{
         width: 80%;
     }
@@ -573,8 +587,7 @@ footer p{
     margin: 10px;
     grid-gap: 16px;
     gap: 16px;
-    height: 290px;
-    width: 290px;
+   
 }
 }
 
