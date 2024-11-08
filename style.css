@@ -9,7 +9,8 @@
 }
 nav .intro h1{
     text-align: left;
-    padding-left: 0px;
+    padding-right: 180px;
+    
 }
 NAV{
     display: flex;
@@ -76,8 +77,8 @@ button:hover{
     text-align: center;
     margin-left: auto;
     background-attachment: fixed;
-    margin-right: auto;
-    color: red;
+    /* margin-right: auto; */
+    color: rgb(252, 4, 4);
     padding-top: 350px;
     font-weight: bold;
     font-family: "Dancing Script", cursive;
