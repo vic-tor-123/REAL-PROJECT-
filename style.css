@@ -379,8 +379,25 @@ p{
     top: 20px;
     right: 20px;
 }
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
 
+  .whatsapp-icon:hover {
+    transform: scale(1.1);
+  }
 
+  .whatsapp-icon i {
+    color: white;
+    font-size: 30px;
+  }
 
 
 /*MOBLE VIEW-SCREENE SMALLERTHEN 768*/
