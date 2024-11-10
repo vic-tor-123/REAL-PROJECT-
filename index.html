@@ -197,39 +197,6 @@
 
 
 
-<div class="like-container">
-<!-- Like Button with Heart Icon -->
-<button id="likeBtn" class="like-button">
-  <i class="fas fa-heart"></i>
-</button>
-<!-- Like counter -->
-<div id="likeCount" class="like-count">0</div>
-</div>
-
-<script>
-// Initialize like count
-let likeCount = 0;
-
-// Get the button and like counter elements
-const likeBtn = document.getElementById('likeBtn');
-const likeCountElem = document.getElementById('likeCount');
-
-// Add event listener to the like button
-likeBtn.addEventListener('click', function() {
-  // Toggle the 'liked' class to change color and scale
-  likeBtn.classList.toggle('liked');
-
-  // Update like count based on whether it's liked or unliked
-  if (likeBtn.classList.contains('liked')) {
-      likeCount++;
-  } else {
-      likeCount--;
-  }
-
-  // Update the like count display
-  likeCountElem.textContent = likeCount;
-});
-</script>
 
 
 

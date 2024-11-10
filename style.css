@@ -402,7 +402,7 @@ p{
     font-size: 30px;
   }
   
-  .like-container{
+  /* .like-container{
     display: flex;
     position: fixed;
     bottom: 20px;
@@ -416,8 +416,8 @@ p{
   }
 .like-button :hover{
     color: white;
-    
-}
+
+} */
 
 /*MOBLE VIEW-SCREENE SMALLERTHEN 768*/
 @media(max-width:768px){ 
@@ -445,16 +445,16 @@ html, body{
 
 .whatsapp-icon {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 7px;
+    right: 8px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     transition: transform 0.3s ease-in-out;
   }
 
   .whatsapp-icon i {
     color: white;
-    font-size: 17px;
+    font-size: 4px;
   }
 
 Header h1{
