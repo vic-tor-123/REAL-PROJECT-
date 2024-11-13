@@ -489,9 +489,9 @@ nav .intro h1 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 30%;
+        width: 50%;
         position: fixed;
-        height: 60vh;
+        height: 70vh;
         top: 0;
         right: -100%;
         z-index: 100;
