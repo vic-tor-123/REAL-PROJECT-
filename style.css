@@ -12,6 +12,11 @@ nav .intro h1{
     padding-right: 180px;
     
 }
+
+nav.button{
+    display: none;
+}
+
 NAV{
     display: flex;
     justify-content: space-around;
@@ -44,10 +49,10 @@ NAV{
     font-weight: bolder;
 }
 .food a:hover{
-    color: black;
+    color: rgb(155, 150, 151);
     transition: 0.3s ease-in;
-    background-color: rgb(144, 94, 190);
-    border-radius: 9px;
+    
+    border-radius: 5px;
     
 }
 
@@ -330,8 +335,8 @@ a{
 
 button{
     padding: 15px 30px;
-    background-color: rgba(107, 102, 102, 0.671);
-    color: white;
+    
+    color: rgb(194, 192, 192);
     border: none;
     border-radius: 50px;
     padding-top: 10px;
@@ -372,7 +377,7 @@ p{
 }
 .open {
     position: absolute;
-    top: 50%;
+    top: 100%;
     right: 20px;  /* Add some spacing between the menu and the edge */
     transform: translateY(-50%);
 }
@@ -405,7 +410,10 @@ p{
     transition: all 0.4s ease-in-out;
 }
 
+
+
   
+
   
 
   
@@ -432,6 +440,7 @@ html, body{
     height: 100vh;
     overflow-x: hidden;
 }
+
 
 .whatsapp{
     position: fixed;
@@ -486,11 +495,11 @@ nav .intro h1 {
         top: 0;
         right: -100%;
         z-index: 100;
-        background-color: #232424;
+        background-color: #3d3c3c;
         transition: all 0.5s ease-in-out;
     }
 
-    .food li{margin-top: 40px;}
+    .food li{margin-top: 20px;}
     .food li a{padding: 10px;
     }
     .open, .close{
@@ -498,13 +507,11 @@ nav .intro h1 {
     #check:checked ~ .food{right: 0;}
 
     .open{
-        right: 80px;
+        right: 50px;
     }
 
 
-    nav button{
-        display: none;
-    }
+    
 
     .placeorder{
      width: 100%;
